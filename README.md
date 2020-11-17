@@ -1,6 +1,6 @@
 ## Trie tree.
 ### Preview
-![demo.gif](./demo.gif)
+![demo.png](https://i.loli.net/2020/11/17/5HnlcSkZe8r9vCP.png)
 ### Search application demo.
 
 1. Input valid string： Type string and press ``Enter``, the string would be inserted into tree.
