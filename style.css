@@ -9,9 +9,9 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #EBECF0;
+  background: #EFF5F9;
   flex-direction: column;
-  transition: all .7s ease-in-out;
+  color: #728C98;
 }
 
 #search {
@@ -20,15 +20,20 @@
   font-size: 30px;
   padding: 16px;
   border: none;
-  border-radius: 50px;
-  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
-  transition: all 0.7s ease-in-out;
-  background-color: #EBECF0;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px #d9ebf7, inset -5px -5px 10px #fbfdff;
+  transition: all 0.2s ease-in-out;
+  background-color: #EFF5F9;
   outline: none;
+  color: #728C98;
+}
+
+#search:focus {
+  box-shadow: inset 1px 1px 2px #cee5f5, inset -1px -1px 2px #FFF;
 }
 
 #datasource {
-  background: white;
+  background: #ffffff;
   width: 500px;
   max-width: 90%;
   max-height: 70vh;
@@ -36,8 +41,8 @@
   overflow: auto;
   font-size: 30px;
   border-radius: 5px;
-  box-shadow: 0px 10px 20px 0px #9e999954;
-  transition: all 0.7s ease-in-out;
+  box-shadow: 2rem 2rem 8rem rgba(78, 134, 165, 0.09), 1rem 1rem 4rem rgba(78, 134, 165, 0.09), inset 4rem 4rem 10rem rgba(78, 134, 165, 0.05);
+  transition: all 0.3s ease-in-out;
 }
 
 #datasource p {
@@ -47,6 +52,6 @@
 }
 
 #datasource p:hover {
-  background: #EBECF0;
+  background: #e8f3f9;
 }
 
