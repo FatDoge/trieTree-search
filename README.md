@@ -1,4 +1,6 @@
 ## Trie tree.
+### Preview
+![demo.gif](./demo.gif)
 ### Search application demo.
 
 1. Input valid string： Type string and press ``Enter``, the string would be inserted into tree.
