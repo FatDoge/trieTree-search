@@ -36,7 +36,7 @@
   background: #ffffff;
   width: 500px;
   max-width: 90%;
-  max-height: 70vh;
+  max-height: 75vh;
   margin-top: 30px;
   overflow: auto;
   font-size: 30px;
@@ -49,9 +49,19 @@
   padding: 16px;
   transition: .3s ease-in-out;
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #datasource p:hover {
   background: #e8f3f9;
 }
 
+.tips{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  max-width: 90%;
+}
