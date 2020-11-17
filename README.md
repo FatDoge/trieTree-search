@@ -5,7 +5,6 @@
 
 1. Input valid string： Type string and press ``Enter``, the string would be inserted into tree.
 2. Search：Type some keyword, the valid strings show under the input dom.
-3. Demo: [trieTree-search](https://fatdoge.github.io/trieTree-search/)
 
 ### Function execute tips.
 ``` javascript
