@@ -57,11 +57,3 @@
 #datasource p:hover {
   background: #e8f3f9;
 }
-
-.tips{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 500px;
-  max-width: 90%;
-}
