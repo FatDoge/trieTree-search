@@ -1,3 +1,4 @@
+English | [简体中文](./README.zh-CN.md)
 ## Trie tree.
 ### Preview
 ![demo.png](https://i.loli.net/2020/11/17/5HnlcSkZe8r9vCP.png)
